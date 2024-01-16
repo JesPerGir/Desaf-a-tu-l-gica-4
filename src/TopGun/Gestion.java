@@ -29,7 +29,7 @@ public class Gestion {
 		nombre=entrada.nextLine();
 		System.out.println("Introduce el rango del segundo piloto");
 		rango=entrada.nextLine();
-		System.out.println("Introduce las horas de segundo del primer piloto");
+		System.out.println("Introduce las horas de vuelo del primer piloto");
 		horasVuelo=Integer.parseInt(entrada.nextLine());
 		
 		Piloto piloto5 = new Piloto(nombre, rango, horasVuelo);
